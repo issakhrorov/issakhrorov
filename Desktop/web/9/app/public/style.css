@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+    font-family: 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.section {
+    max-width: 800px;
+    margin: 2rem auto 0 auto;
+    border: 1px solid #ccc;
+}
+
+.section > h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem 0;
+    color: #fff;
+    -webkit-text-stroke: 2px #000; 
+}
+
+.section > h1 > span {
+    color: tomato;
+    -webkit-text-stroke: 2px #751200; 
+}
+
+.list-wrapper {
+    padding: 2rem;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    border: 1px solid #ccc; 
+}
+
+.item:hover {
+    background-color: #eee;
+}
+
+.lot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 1px solid #ccc;
+    width: 15%;
+    font-weight: 700;
+    color: #138748;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    min-height: 6rem;
+    background-color: #6cffb8;
+    cursor: pointer;
+}
+
+.lot:hover {
+    border: 2px solid #138748;
+}
+
+.reserved {
+    background-color: tomato;
+    border: 1px solid tomato;
+    color: #751200;
+    cursor: default;
+}
+
+.reserved:hover { border: 1px solid tomato; }   

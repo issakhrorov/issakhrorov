@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Parking #1",
+        "capacity": 10,
+        "lots": [
+            {
+                "id": 1,
+                "reserved": true
+            },
+            {
+                "id": 2,
+                "reserved": false
+            },
+            {
+                "id": 3,
+                "reserved": true
+            },
+            {
+                "id": 4,
+                "reserved": true
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Parking #2",
+        "capacity": 20,
+        "lots": [
+            {
+                "id": 1,
+                "reserved": true
+            },
+            {
+                "id": 2,
+                "reserved": false
+            },
+            {
+                "id": 3,
+                "reserved": false
+            },
+            {
+                "id": 4,
+                "reserved": false
+            },
+            {
+                "id": 5,
+                "reserved": true
+            },
+            {
+                "id": 6,
+                "reserved": false
+            },
+            {
+                "id": 7,
+                "reserved": false
+            },
+            {
+                "id": 8,
+                "reserved": true
+            }
+        ]
+    }
+]
